@@ -1,2 +1,2 @@
 # stszine
-Shaking The System Zine
+Suviving The System Zine
