@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+#button-container {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+button {
+  width: 10px;
+  display: none;
+  margin: 1.25%;
+}
+
+.svgImage {
+  width: 25px;
+  height: 25px;
+}
+
+body {
+  background: ghostwhite;
+  position: relative;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 1rem;
+}
+.buttons .list {
+  width: 25px;
+  height: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+.buttons .list span {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.buttons .list span.active {
+  background: #666;
+}
+.buttons .grid {
+  width: 25px;
+  height: 20px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+.buttons .grid span {
+  width: 42%;
+  height: 8px;
+  background: #ccc;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.buttons .grid span.active {
+  background: #666;
+}
+
+.wrapper {
+  /*background: white;*/
+  width: 75%;
+  padding: 0.5%;
+  margin: 2% auto;
+  box-shadow: 0px 20px 40px -20px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  /*-webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: space-between;
+  -webkit-align-items: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;*/
+}
+.wrapper .item {
+  /*width: 48%;*/
+  margin-bottom: 1%;
+  /*background: #ddd;*/
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
+}
+
+.grid {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.grid .item {
+  width: 48%;
+}
+
+.list {
+  -webkit-flex-wrap: auto;
+      -ms-flex-wrap: auto;
+          flex-wrap: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.list .item {
+  width: 98%;
+}
+
+img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+}
+
+.hidden-from-view {
+  display: none;
+}
+
+h4 {
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  text-align: center;
+}
