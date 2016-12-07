@@ -5,54 +5,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Shaking The System Zine</title>
 </head>
 <body>
-  <h4>surviving the system zine</h4>
-  <div id="about">.</div>
-  <section class="section-images">
+<div id="button-container">
+  <button id="activate-grid">
+  </button>
+  <label id="grid-label" for="activate-grid">
+    <svg role="button" tabindex="0" class="svgImage" viewBox="0 0 50 50">
+      <rect x="2.5" y="2.5" width="20" height="20" />
+      <rect x="27.5" y="2.5" width="20" height="20" />
+      <rect x="27.5" y="27.5" width="20" height="20" />
+      <rect x="2.5" y="27.5" width="20" height="20" />
+    </svg>
+  </label>
+  <button id="activate-list">
+  </button>
+  <label id="list-label" for="activate-list">
+    <svg role="button" tabindex="0" class="svgImage" viewBox="0 0 50 50">
+      <rect x="0" y="2.5" width="50" height="10" />
+      <rect x="0" y="15" width="50" height="10" />
+      <rect x="0" y="27.5" width="50" height="10" />
+      <rect x="0" y="40" width="50" height="10" />
+    </svg>
+  </label>
+</div>
 
+<h4>surviving the system zine</h4>
+
+<div id="item-container" class="wrapper">
+  <div class="item">
     <img id="1" src="img/cover.jpeg">
-
-    <img id="2" src="img/contents.jpeg">
-
-    <img id="3" src="img/dancer.png">
-
-    <img id="4" src="img/oops-i-drank.jpeg">
-
-    <img id="5" src="img/under-the-sea.jpeg">
-
-    <img id="6" src="img/standing-rock-collage.png">
-
-    <img id="7" src="img/catfish.jpeg">
-
-    <img id="8" src="img/identity.png">
-
-    <img id="9" src="img/group-poem-spread.jpeg">
-
-    <img id="10" src="img/group-poem-3.jpeg">
-
-    <img id="11" src="img/group-poem-4.jpeg">
-
-    <img id="12" src="img/group-poem-5.jpeg">
-
-    <img id="13" src="img/group-poem-6.jpeg">
-
-    <img id="14" src="img/poem-1.jpeg">
-
-    <img id="15" src="img/poem-2.jpeg">
-
-    <img id="15" src="img/stand-alone-poster.jpeg">
-
-    <img id="15" src="img/aspire.jpeg">
-
-    <img id="15" src="img/complicit-silence.jpeg">
-
-    <img id="15" src="img/back-cover.jpeg">
-
   </div>
-  <script src="script.js"></script>
-  <footer>&copy; Voices That Shake! <a href='https://creativecommons.org/licenses/by/3.0/'>Creative Commons Attribution License</a></footer>
+  <div class="item">
+    <img id="2" src="img/contents.jpeg">
+  </div>
+  <div class="item">
+    <img id="3" src="img/dancer.png">
+  </div>
+  <div class="item">
+    <img id="4" src="img/oops-i-drank.jpeg">
+  </div>
+  <div class="item">
+      <img id="5" src="img/under-the-sea.jpeg">
+  </div>
+  <div class="item">
+    <img id="6" src="img/standing-rock-collage.png">
+  </div>
+  <div class="item">
+    <img id="7" src="img/catfish.jpeg">
+  </div>
+  <div class="item">
+    <img id="8" src="img/identity.png">
+  </div>
+  <div id="8.25" class="item hidden-from-view group-half">
+    <img src="img/group-poem-part-1.png">
+  </div>
+  <div id="8.75" class="item hidden-from-view group-half">
+    <img src="img/group-poem-part-2.png">
+  </div>
+  <div id="9" class="item">
+    <img src="img/group-poem-spread.jpeg">
+  </div>
+  <div class="item">
+    <img id="10" src="img/group-poem-3.jpeg">
+  </div>
+  <div class="item">
+    <img id="11" src="img/group-poem-4.jpeg">
+  </div>
+  <div class="item">
+    <img id="12" src="img/group-poem-5.jpeg">
+  </div>
+  <div class="item">
+    <img id="13" src="img/group-poem-6.jpeg">
+  </div>
+  <div class="item">
+    <img id="14" src="img/poem-1.jpeg">
+  </div>
+  <div class="item">
+      <img id="15" src="img/poem-2.jpeg">
+  </div>
+  <div id="15.25" class="item hidden-from-view alone-half">
+    <img src="img/stand-alone-part1.png">
+  </div>
+  <div id="15.75" class="item hidden-from-view alone-half">
+    <img src="img/stand-alone-part2.png">
+  </div>
+  <div id="16" class="item">
+    <img src="img/stand-alone-poster.jpeg">
+  </div>
+  <div class="item">
+    <img id="17" src="img/aspire.jpeg">
+  </div>
+  <div class="item">
+    <img id="18" src="img/complicit-silence.jpeg">
+  </div>
+  <div class="item">
+    <img id="19" src="img/back-cover.jpeg">
+  </div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    <script src="js/index.js"></script>
+<footer>&copy; Voices That Shake! <a href='https://creativecommons.org/licenses/by/3.0/'>Creative Commons Attribution License</a></footer>
 </body>
 </html>
