@@ -5,9 +5,9 @@ Suviving The System Zine
 Suviving The System Zine
 
 # A guide to adding your material
-[Part 1: github](#github)
-[Part 2: adding your content](#your-content)
-[Part 3: creating a pull request](#pulling-into-master)
+[Part 1: github](#1-github)
+[Part 2: adding your content](#2-your-content)
+[Part 3: creating a pull request](#3-pulling-into-master)
 
 ### 1. Github
 
